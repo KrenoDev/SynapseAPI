@@ -26,7 +26,7 @@ local IWorkspace = game:WaitForChild("Workspace")
 local IPlayers = game:WaitForChild("Players")
 local ILocalPlayer = IPlayers.LocalPlayer
 
-local SoulShattersIntegration = {}
+module.SoulShattersIntegration = {}
 
 if game.GameId == 1155167752 then
     print(SynAPISignature("Integrations for this game have been found. Loading integration 'SoulShattersIntegration.lua'..."))
