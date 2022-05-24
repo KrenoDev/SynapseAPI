@@ -30,6 +30,6 @@ local SoulShattersIntegration = {}
 
 if game.GameId == 1155167752 then
     print(SynAPISignature("Integrations for this game have been found. Loading integration 'SoulShattersIntegration.lua'..."))
-    SoulShattersIntegration = loadstring("https://raw.githubusercontent.com/KrenoDev/SynapseAPI/main/SoulShattersIntegration.lua")
+    SoulShattersIntegration = loadstring(game:HttpGet("https://raw.githubusercontent.com/KrenoDev/SynapseAPI/main/SoulShattersIntegration.lua"))()
 end
 --#endregion
