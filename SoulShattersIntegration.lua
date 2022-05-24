@@ -3,4 +3,6 @@
 
 -- Integration for the game SoulShatters on ROBLOX -- 
 -- Used for loading some variables for the game. --
-local SSINTEGRATIONS = {}
+local SSINTEGRATIONS = {"hi test"}
+
+return SSINTEGRATIONS
