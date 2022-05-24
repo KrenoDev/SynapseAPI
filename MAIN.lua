@@ -33,3 +33,5 @@ if game.GameId == 1155167752 then
     SoulShattersIntegration = loadstring(game:HttpGet("https://raw.githubusercontent.com/KrenoDev/SynapseAPI/main/SoulShattersIntegration.lua"))()
 end
 --#endregion
+
+return module
