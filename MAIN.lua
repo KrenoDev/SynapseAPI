@@ -26,4 +26,11 @@ local IWorkspace = game:WaitForChild("Workspace")
 local IPlayers = game:WaitForChild("Players")
 local ILocalPlayer = IPlayers.LocalPlayer
 
+local SoulShattersIntegration = {}
+
+if game.GameId == 3198259055 then
+    print(SynAPISignature("Integrations for this game have been found. Loading integration 'SoulShattersIntegration.lua'..."))
+    SoulShattersIntegration = loadstring("https://raw.githubusercontent.com/KrenoDev/SynapseAPI/main/SoulShattersIntegration.lua")
+end
 --#endregion
+print(SoulShattersIntegration, #SoulShattersIntegration)
