@@ -34,4 +34,5 @@ if game.GameId == 1155167752 then
 end
 --#endregion
 SoulShattersIntegration._LOAD()
+print(SoulShattersIntegration.getKey())
 return module
